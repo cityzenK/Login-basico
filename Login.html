@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <title>Taller3 LOGIN Javascript</title>
+      <link href="materialize/css/materialize.min.css" rel="stylesheet" type="text/css"/>
+    <script src="js/login.js"></script>
+  </head>
+<body>
+  <div class="container">
+    <div class="main">
+      <h2>Login en Javascript</h2>
+      <form class="col s12" id="form_id" method="post" name="myform">
+        <div class="row s6">
+          <div class="input-fiel col s6">
+            <label for="username">User Name :</label>
+            <input type="text" name="username" id="username" class="valide"/>
+          </div>
+          <div class="input-fiel col s6">
+            <label>Password :</label>
+            <input type="password" name="password" id="password"/>
+          </div>
+          <a class="waves-effect waves-light btn" id="submit" onclick="validate()">Login</a>
+        </div>
+      </form>
+      <span><b class="note">Nota : </b>Para esta presentacion usar los siguientes datos. <br/><b class="valid">User Name : Formget<br/>Password : formget#123</b></span>
+    </div>
+  </div>
+</body>
+</html>
